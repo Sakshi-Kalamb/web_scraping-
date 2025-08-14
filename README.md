@@ -18,15 +18,14 @@ This repository contains scripts and examples for web scraping tasks using Pytho
 web-scraping-toolkit/  
 ├─ README.md  
 ├─ requirements.txt  
-├─ data/  
-│  ├─ outputs/        # CSV, TXT, Images will be saved here  
-│  └─ pdfs/           # Store PDFs here  
-├─ scripts/  
-│  ├─ selenium_scraper.py  
-│  ├─ table_scraper.py  
-│  ├─ pdf_to_text.py  
-│  └─ image_by_xpath.py  
-└─ .gitignore  
+├─ pdf_scraping/  
+│  ├─ scraper_pdf.py        
+│  └─ sample.pdf.pdf    
+│  └─ output_pdf_text.csv 
+├─ table_scraping/  
+│  ├─ scraper_table.py  
+│  ├─ output_table.py  
+
 
 ## ⚡ Features
 
@@ -120,6 +119,4 @@ python scripts/image_by_xpath.py
 - Pandas Documentation
 - pdfplumber Documentation
 
-pandas Documentation
 
-pdfplumber Documentation
